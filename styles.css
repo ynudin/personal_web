@@ -300,6 +300,27 @@ nav ul li a {
   color: #b6895b;
 }
 
+/* Experience & Education End */
+#skill {
+  padding: var(--sectionPadding);
+  /* background: #b6895b; */
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.education {
+  display: flex;
+  gap: 2rem;
+}
+
+.education-line {
+
+}
+
 
 /* Footer */
 footer {
